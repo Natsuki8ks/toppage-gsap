@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Heebo", sanserif;
+  color: #fff;
+}
+.landing {
+  min-height: 100vh;
+  background: url("../bgrd_img.jpg");
+  background-size: cover;
+  padding: 1rem 5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10hv;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  padding-left: 10rem;  
+  /* li row clear */
+  font-size: 1.2rem;
+}
+#logo {
+  font-family: "Lobstar", crusive;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.big-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4rem;
+  font-family: "Lobstar", crusive;
+  color: #684ec7;
+}
+.intro {
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 3 things make element center */
+    /* add bymyself */
+  line-height: 50px;   /*! 40だとはみ出る*/
+}
+.slider {
+  background: rgb(99, 95, 95);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sanserif;
+}
+.hide {
+  background: black;
+  overflow: hidden;
+  /* ?? */
+  padding: 10px;   /*!*/
+}
+.hide span {
+  transform:  translateY(100%);
+  display: inline-block;
+}
