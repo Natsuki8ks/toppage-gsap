@@ -24,10 +24,18 @@ nav {
   display: flex;
   list-style: none;
 }
-.nav-links li {
-  padding-left: 10rem;  
+.nav-block {
+  padding-left: 4rem;  
   /* li row clear */
   font-size: 1.2rem;
+}
+.nav-links li{
+  cursor: pointer;
+  display: block;
+  padding: 10px 20px;  /*!*/
+}
+.nav-links li:hover {
+  background: rgba(68, 67, 67, 0.7)
 }
 #logo {
   font-family: "Lobstar", crusive;
